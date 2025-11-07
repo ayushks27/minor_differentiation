@@ -6,9 +6,9 @@ import { SignInPage, SignUpPage } from "./auth";
 function Home() {
   return (
     <div>
-      <h1>NASA Space App</h1>
+      <h1>Differentiation</h1>
       <SignedIn>
-        <p>Welcome back!</p>
+        <p>Welcome!</p>
         <UserButton />
       </SignedIn>
       <SignedOut>

@@ -11,6 +11,9 @@
   "dependencies": {
     "@clerk/clerk-react": "^5.46.2",
     "@clerk/nextjs": "^6.31.10",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.3.5",
     "@radix-ui/react-slot": "^1.2.3",
     "@react-google-maps/api": "^2.20.7",
     "@techstark/opencv-js": "^4.11.0-release.1",

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "NASA Space App",
+  title: "Differentiation",
   description: "Powered by Next.js + Clerk",
 };
 

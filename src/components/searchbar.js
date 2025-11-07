@@ -28,11 +28,11 @@ export default function SearchBar({ onSearch, placeholder = "Search..." }) {
           placeholder={placeholder}
           value={query}
           onChange={handleChange}
-          className="w-full px-4 py-2 pl-4 pr-10 rounded-full border border-gray-600 
-                     bg-black-900 text-white shadow-md
+          className="w-full px-4 py-2 pl-4 pr-10 rounded-full border border-white 
+                     bg-white text-black shadow-md placeholder-black
                      focus:outline-none focus:ring-2 focus:ring-white-500"
         />
-        <button type="submit" className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400">
+        <button type="submit" className="absolute right-3 top-1/2 -translate-y-1/2 text-black">
           <Search size={18} />
         </button>
       </form>
